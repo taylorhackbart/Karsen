@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- title is what shows up on your Tab-->
+    <title>Taylors Practice Page</title>
+<!-- trying to style my own page-->
+
+    <style>
+      main {
+        margin: auto;
+        width: 85%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color:lightblue
+      }
+
+      h1 {
+        color: red;
+        text-align: center;
+        
+      }
+      
+    
+
+      
+
+    </style>
+</head>
+<main>
+
+<body>
+<!-- h1 is a header, lower the number the larger the font-->
+  <h1>I am Taylor and I am practicing how to code on my own</h1>
+  <p>This is a page that will allow me to practice everything we learned today and also show Karsen that I am the favorite child</p>
+
+  <!-- How to input an image-->
+  <div>
+    <img src="karsen.jpg" alt= "this is my friend">
+    <p><strong>Here is a photo of the people of the hour</strong></p>
+    <p>David (left) Terry (right)</p>
+   
+   <!-- how to input submittable data using a placeholder-->
+
+    <form>
+      <field set><p>
+        <label>First Name</label>
+        <input type="text" name="fname" placeholder="Terry" />
+        <label>Last Name</label>
+        <input type="text" name="lname" placeholder="Kurtenbach" />
+        <button type="submit"> Submit Info</button>
+      </p></field>
+    </form>
+    <form>
+      <field set><p>
+        <label>First Name</label>
+        <input type="text" name="fname" placeholder="David" />
+        <label>Last Name</label>
+        <input type="text" name="lname" placeholder="Kurtenbach" />
+        <button type="submit"> Submit Info</button>
+      </p></field>
+    </form>
+
+
+<!-- I am creating a table here -->   
+
+    <table>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Location</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Terry</td>
+          <td>50</td>
+          <td>San Diego</td>
+        </tr>
+        <tr>
+          <td>David</td>
+          <td>51</td>
+          <td>San Diego</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="3"></td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+  <h2>They miss me because</h2>
+  <ol> <!-- Ordered list with numbers-->
+    <li>I miss them</li>
+    <li>They make me laugh</li>
+    <li>I make them laugh way more</li>
+  </ol>
+  <h2>I miss them because</h2>
+  <ul> <!--  ordered list without numbers, made with bullets typically -->
+    <li>I like them</li>
+    <li>They like dogs</li>
+    <li>How cute are they? Very cute</li>
+  </ul>
+  <!-- Trying the different button options -->
+  
+ <!--First one is a checkbox-->
+  Please select which one loves Taylor more(can select both)
+  <div>
+  <p><input type="checkbox" name="check">Terry</p>
+  <input type="checkbox" name="check">David
+</div>
+  <!-- Second is radio-->
+  Please select who Terry and David love more (can only select ONE)
+<div>
+  <p><input type="radio" name="check">Taylor</p>
+  <input type="radio" name="check">Karsen
+</div>
+  <!-- Third is dropdown-->
+
+<p>Please select Terry and Davids' favorite child</p>
+<div>
+  <select name="dropdown">
+    <option value="">Choose One</option>
+    <option value="1">Taylor</option>
+    <option value="2">Taylor</option>
+    <option value="3">NOT EMILY</option>
+
+  </select>
+</div>
+<div>
+<button type="submit">Submit Here</button>
+</div>
+
+<!-- how to insert a link in a new tab -->
+
+<p>If you would like to know more about these people, please visit <a href="https://www.facebook.com/terry.kurtenbach.9" target="_blank">Terry's</a> Facebook page.</p>
+<p>You can also visit <a href="https://www.facebook.com/karsen.kurtenbach" target="_blank">Karsen's</a> page to see my competition
+
+  <p>If you think I am wrong and have no chance of becoming the favorite child 
+    (sorry Connor you have not been included anywhere because, lets face it, 
+    Karsen is my real competition) please let me know in the dropdown menu below</p>
+  <div>
+    <select name="dropdown">
+      <option value="">CHOOSE WISELY</option>
+      <option value="1">Taylor is the Fav</option>
+      <option value="2">Karsen has NO chance</option>
+      <option value="3">Who is Connor?</option>
+      
+    </select>
+    <button type="submit"> Submit Info</button>
+  </div>
+  </p>
+    
+</body>
+</main>
+</html>
